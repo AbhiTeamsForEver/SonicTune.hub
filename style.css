@@ -1,0 +1,55 @@
+#sonicimg{
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
+
+}
+.navbar-brand{
+    margin-left: 20px;
+}
+body{
+    background-color: aqua; 
+}
+.head{
+    text-decoration: none;
+    color: aqua;
+    font-size: 18px;
+    list-style-type: none;
+    transition: .2s;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    margin-right: 30px;
+    
+   
+}
+.head:hover{
+   transform: scale(1.3);
+}
+
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: -20px;
+    margin-bottom: 6px;
+}
+.hamburger-menu {
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    cursor: pointer;
+    transition: .2s;
+  }
+  
+  .dot {
+    width: 24px;
+    height: 2px;
+    background-color: white;
+    margin: 3px 0;
+    border-radius: 2px;
+    
+  }
+  .hamburger-menu:hover{
+    transform: scale(1.3);
+  }
